@@ -14,7 +14,8 @@
 	<!-- css plugin -->
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+	 crossorigin="anonymous">
 	<link rel="stylesheet" href="assets/css/magnific-popup.css">
 	<link rel="stylesheet" href="assets/css/flexslider.css">
 	<link rel="stylesheet" href="assets/css/aos.css">
@@ -45,54 +46,46 @@
 	<!-- // PRELOADER END -->
 
 	<!-- // NAVIGATION BEGIN -->
-	<div id="navigation">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-3">
-					<div class="logo">
-						<a href="index.html">Lesley Boyd</a>
-					</div>
-				</div>
-
-				<div class="col-sm-9">
-					<div class="navigation-menu">
-						<div class="navbar">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-									<span class="sr-only">Toggle navigation</span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-									<span class="icon-bar"></span>
-								</button>
-							</div>
-
-							<div class="navbar-collapse collapse">
-								<ul class="nav navbar-nav navbar-right">
-									<li><a class="active smoth-scroll" href="#home">Home</a></li>
-									<li><a class="smoth-scroll" href="#about">About</a></li>
-									<li><a class="smoth-scroll" href="#portfolio">Portfolio</a></li>
-									<li><a class="smoth-scroll" href="#services">Technologies</a></li>
-									<!-- <li><a class="smoth-scroll" href="#testimonial">Testimonial</a></li> -->
-									<li><a class="smoth-scroll" href="#blog">Experience</a></li>
-									<li><a class="smoth-scroll" href="#contact">Contact</a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+	<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+		<a class="navbar-brand" href="index.html">Lesley Boyd</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+		 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link smoth-scroll" href="#home">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link smoth-scroll" href="#about">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link smoth-scroll" href="#blog">Experience</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link smoth-scroll" href="#portfolio">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link smoth-scroll" href="#services">Technologies</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link smoth-scroll" href="#contact">Contact</a>
+				</li>
+			</ul>
+	</nav>
 	<!-- // NAVIGATION END -->
 
 	<!-- // HOME BEGIN -->
-	<div id="home" class="home-bg" style="background-image: url('assets/img/idaho_mtns.jpg')" data-stellar-background-ratio="0.6">
+	<div id="home" class="home-bg" style="background-image: url('assets/img/idaho_mtns.jpg')"
+	 data-stellar-background-ratio="0.6">
 		<div class="overlay">
 			<div class="container">
 				<div class="row">
 					<div class="home-text">
-						<div class="profile-pic" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
-							<img src="assets/img/headshot.jpg"/>
+						<div class="profile-pic" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+						 data-aos-offset="0">
+							<img src="assets/img/headshot.jpg" />
 						</div>
 
 						<div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
@@ -118,17 +111,19 @@
 				<div class="description col-md-6 col-sm-4 col-xs-12">
 					<h2>Hello, I am Lesley</h2>
 					<h4>Web Developer from Nashville</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh felis, rutrum id eleifend nec, viverra ac nunc.
-						Fusce sit amet interdum metus, a interdum massa. Nullam gravida, elit sed mattis semper, libero leo convallis mi, et
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh felis, rutrum id eleifend nec, viverra ac
+						nunc.
+						Fusce sit amet interdum metus, a interdum massa. Nullam gravida, elit sed mattis semper, libero leo convallis mi,
+						et
 						elementum magna tortor sed tortor. Aliquam hendrerit metus non enim fringilla, eu molestie ante bibendum.
 					</p>
 
 					<ul class="social-icons">
-						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fa fa-globe"></i></a></li>
-						<li><a href="#"><i class="fa fa-github"></i></a></li>
-						
+						<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fas fa-globe"></i></a></li>
+						<li><a href="#"><i class="fab fa-github"></i></a></li>
+
 					</ul>
 
 					<p>
@@ -143,29 +138,28 @@
 
 						<div class="col-md-6 col-sm-6 col-xs-6">
 							<div class="count-item">
-								<div class="numscroller" data-slno='1' data-min='0' data-max='300' data-delay='10' data-increment="5">300</div>
+
 								<div class="count-name-intro">Project done</div>
 							</div>
 						</div>
 
 						<div class="col-md-6 col-sm-6 col-xs-6">
 							<div class="count-item">
-								<div class="numscroller" data-slno='1' data-min='0' data-max='500' data-delay='10' data-increment="5">500</div>
+
 								<div class="count-name-intro">Cups of coffe</div>
 							</div>
 						</div>
 
 						<div class="col-md-6 col-sm-6 col-xs-6">
 							<div class="count-item">
-								<div class="numscroller" data-slno='1' data-min='0' data-max='120' data-delay='10' data-increment="5">120</div>
+
 								<div class="count-name-intro">Clients</div>
 							</div>
 						</div>
 
 						<div class="col-md-6 col-sm-6 col-xs-6">
 							<div class="count-item">
-								<div class="numscroller" data-slno='1' data-min='0' data-max='10' data-delay='1' data-increment="1">10</div>
-								<div class="count-name-intro">Awards</div>
+								<div class="count-name-intro">Happy People</div>
 							</div>
 						</div>
 
@@ -176,62 +170,63 @@
 	</section>
 	<!-- // ABOUT END -->
 
-	<!-- // SKILLS BEGIN -->
-	<!-- <section id="skills">
-		<div class="container">
+	<!-- // Experience BEGIN -->
+	<section id="blog">
+		<div class="container text-center">
 			<div class="row">
 				<div class="col-md-12 text-center">
-					<h2>My Skills</h2>
+					<h2>Experience</h2>
 				</div>
 
-				<div class="col-md-5 col-sm-6 col-xs-12">
-					<div class="progress-box">
-						<p>PHP
-							<span class="color-heading pull-right">87%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-base" role="progressbar" data-width="87"></div>
+				<div class="col-md-4 col-sm-6">
+					<div class="blog-item">
+						<a href="single.html" class="blog-img">
+							<img src="assets/img/blog/blog-1.jpg">
+						</a>
+						<div class="blog-desc">
+							<h4>
+								<!-- <a href="single.html">Lorem ipsum dolor sit amet</a> -->
+							</h4>
+							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+							<!-- <a href="single.html" class="btn btn-dark">Read more</a> -->
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-5 col-sm-6 col-xs-12 skills-right">
-					<div class="progress-box">
-						<p>HTML5
-							<span class="color-heading pull-right">96%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-base" role="progressbar" data-width="96"></div>
+				<div class="col-md-4 col-sm-6">
+					<div class="blog-item">
+						<a href="single.html" class="blog-img">
+							<img src="assets/img/blog/blog-2.jpg">
+						</a>
+						<div class="blog-desc">
+							<h4>
+								<!-- <a href="single.html">Lorem ipsum dolor sit amet</a> -->
+							</h4>
+							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+							<!-- <a href="single.html" class="btn btn-dark">Read more</a> -->
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-5 col-sm-6 col-xs-12">
-					<div class="progress-box">
-						<p>JavaSript
-							<span class="color-heading pull-right">52%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-base" role="progressbar" data-width="52"></div>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-5 col-sm-6 col-xs-12 skills-right">
-					<div class="progress-box">
-						<p>Photoshop
-							<span class="color-heading pull-right">77%</span>
-						</p>
-						<div class="progress">
-							<div class="progress-bar bg-color-base" role="progressbar" data-width="77"></div>
+				<div class="col-md-4 col-sm-6">
+					<div class="blog-item">
+						<a href="single.html" class="blog-img">
+							<img src="assets/img/blog/blog-3.jpg">
+						</a>
+						<div class="blog-desc">
+							<h4>
+								<!-- <a href="single.html">Lorem ipsum dolor sit amet</a> -->
+							</h4>
+							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+							<!-- <a href="single.html" class="btn btn-dark">Read more</a> -->
 						</div>
 					</div>
 				</div>
 
 			</div>
 		</div>
-	</section> -->
-	<!-- // SKILLS END -->
+	</section>
+	<!-- // Experience END -->
 
 	<!-- // PORTFOLIO BEGIN -->
 	<section id="portfolio">
@@ -239,7 +234,7 @@
 			<div class="row">
 				<div data-aos="fade-up">
 					<div class="col-md-12 text-center">
-						<h2>Projects</h2>
+						<h2>Portfolio</h2>
 					</div>
 
 					<div class="col-md-12 col-sm-12">
@@ -414,213 +409,64 @@
 								<h4>Slack</h4>
 							</div>
 						</div>
-
-						
-
-					
-
-						
-
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- // SERVICES END -->
+	<!-- // technologies END -->
 
-	<!-- // HIRE BEGIN -->
-	<section id="hire">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-9 col-sm-6 col-xs-12">
-					<h2>Hire Me</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin nibh felis, rutrum id eleifend nec, viverra ac nunc. Fusce
-						sit amet interdum metus, a interdum massa.
-					</p>
-				</div>
 
-				<div class="col-md-3 col-sm-6 col-xs-12">
-					<p>
-						<a href="#contact" class="btn btn-dark btn-lg smoth-scroll">Get in Touch</a>
-					</p>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!-- // HIRE END -->
 
-	<!-- // TESTIMONIAL BEGIN -->
+	<!-- // Nashville Photo BEGIN -->
 	<section id="testimonial" class="testimonial-slider text-center" style="background-image: url('assets/img/nashville.jpg');">
-		<!-- <div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<div class="flexslider">
-						<ul class="slides">
-
-							<li>
-								<p class="author">John Pagiyai SH, Product Designer.</p>
-								<h2>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis ipsum et ante tempor imperdiet. Sed eleifend metus
-									et nisl scelerisque, ut convallis sapien facilisis."
-								</h2>
-							</li>
-
-							<li>
-								<p class="author">Yong Lek, Founder Abidas.</p>
-								<h2>"Morbi et vulputate orci. Nullam in venenatis risus. Aliquam nec orci elit. Sed dapibus eleifend enim, sed imperdiet
-									lacus eleifend quis. Nullam mollis, quam ac convallis semper."
-								</h2>
-
-							</li>
-
-							<li>
-								<p class="author">Bung Fefe, Actor</p>
-								<h2>"Cras blandit rutrum justo tincidunt iaculis. Ut purus sem, facilisis eget urna quis, commodo tempus ligula. Morbi
-									sagittis, erat sed imperdiet mattis, libero libero sodales."
-								</h2>
-							</li>
-
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div> -->
 	</section>
-	<!-- // TESTIMONIAL END -->
+	<!-- // Nashville Photo END -->
 
-	<!-- // BLOG BEGIN -->
-	<section id="blog">
-		<div class="container text-center">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h2>Blog Post</h2>
-				</div>
 
-				<div class="col-md-4 col-sm-6">
-					<div class="blog-item">
-						<a href="single.html" class="blog-img">
-							<img src="assets/img/blog/blog-1.jpg">
-						</a>
-						<div class="blog-desc">
-							<h4>
-								<a href="single.html">Lorem ipsum dolor sit amet</a>
-							</h4>
-							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-							<a href="single.html" class="btn btn-dark">Read more</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6">
-					<div class="blog-item">
-						<a href="single.html" class="blog-img">
-							<img src="assets/img/blog/blog-2.jpg">
-						</a>
-						<div class="blog-desc">
-							<h4>
-								<a href="single.html">Lorem ipsum dolor sit amet</a>
-							</h4>
-							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-							<a href="single.html" class="btn btn-dark">Read more</a>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-sm-6">
-					<div class="blog-item">
-						<a href="single.html" class="blog-img">
-							<img src="assets/img/blog/blog-3.jpg">
-						</a>
-						<div class="blog-desc">
-							<h4>
-								<a href="single.html">Lorem ipsum dolor sit amet</a>
-							</h4>
-							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-							<a href="single.html" class="btn btn-dark">Read more</a>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-	<!-- // BLOG END -->
 
 	<!-- // CONTACT BEGIN -->
 	<section id="contact">
-		<div class="container text-center">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<h2>Contact Me</h2>
+			<div class="text-center">
+				<h2>Contact Me</h2>
+			</div>
+
+			<div class="contact-icons">
+				<div class="single-contact-icon">
+					<i class="fa fa-envelope fa-2x"></i>
+					<p>lesley.a.boyd1@gmail.com</p>
 				</div>
 
-				<div class="address-icons col-md-8 col-md-offset-2">
-					<div class="col-md-4 col-sm-4">
-						<i class="fa fa-envelope fa-2x"></i>
-						<p>lesley.a.boyd1@gmail.com</p>
-					</div>
-
-					<div class="col-md-4 col-sm-4">
-						<i class="fa fa-map-marker fa-2x"></i>
-						<p>Nashville, TN
-						</p>
-					</div>
-
-					<div class="col-md-4 col-sm-4">
-						<i class="fa fa-phone fa-2x"></i>
-						<p>(270) 316-1903</p>
-					</div>
-					<div class="clearfix"></div>
+				<div class="single-contact-icon">
+					<i class="fa fa-map-marker fa-2x"></i>
+					<p>Nashville, TN
+					</p>
 				</div>
 
-				<div class="col-md-8 col-md-offset-2">
-					<!-- changes your email domain in mailer.php (assets/php/) -->
-					<form id="ajax-contact" name="contact" method="post" action="assets/php/mailer.php">
-						<div class="row">
-							<div class="col-md-6 col-sm-6">
-								<div class="form-group">
-									<input type="text" name="name" id="name" class="form-control" placeholder="Name" required>
-									<p class="help-block text-danger"></p>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6">
-								<div class="form-group">
-									<input type="email" name="email" id="email" class="form-control" placeholder="Email" required>
-									<p class="help-block text-danger"></p>
-								</div>
-							</div>
-						</div>
-						<div class="form-group">
-							<textarea name="message" id="message" class="form-control" rows="4" placeholder="Message..." required></textarea>
-							<p class="help-block text-danger"></p>
-						</div>
-						<div class="col-md-12 col-xs-12">
-							<button id="submit" type="submit" name="submit" class="btn btn-dark">Send Message</button>
-						</div>
-						<div id="form-messages" class="col-md-12 col-xs-12"></div>
-					</form>
+				<div class="single-contact-icon">
+					<div>
+					<i class="fa fa-phone fa-2x"></i>
+					</div>
+					<div>
+					<p>(270) 316-1903</p>
+					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 	<!-- // CONTACT END-->
 
 	<!-- // FOOTER BEGIN -->
 	<footer id="footer">
-		<div class="container">
 			<div class="col-md-12 text-center">
 				<ul class="social-icons-footer">
-					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-					<li><a href="#"><i class="fa fa-behance"></i></a></li>
-					<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fas fa-globe"></i></a></li>
+					<li><a href="#"><i class="fab fa-github"></i></a></li>
 				</ul>
 
 				<p>© 2019 Lesley Boyd</p>
 			</div>
-		</div>
 	</footer>
 	<!-- // FOOTER END -->
 
@@ -628,6 +474,11 @@
 
 
 	<!-- js plugin -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous"></script>
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script src="assets/js/jquery.js"></script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/jquery.stellar.min.js"></script>
