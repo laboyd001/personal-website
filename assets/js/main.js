@@ -8,7 +8,6 @@
   05. HOME ARROW DOWN
   06. SMOTH SCROLL
   07. PORTFOLIO FILTER IMAGE
-  08. TESTIMONIAL SLIDER
   09. ANIMATION EFFECT  
 */
 
@@ -107,15 +106,6 @@
 		/* 07. PORTFOLIO FILTER IMAGE
 		==================================================*/
 		$('#port-image').mixItUp();
-
-
-		/* 08. TESTIMONIAL SLIDER
-		==================================================*/
-
-		$('.flexslider').flexslider({
-			animation: "fade",
-			directionNav: false
-		});
 
 
 		/* 09. ANIMATION EFFECT
