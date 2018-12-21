@@ -7,7 +7,6 @@
   04. NAVIGATION
   05. HOME
   06. ABOUT
-  07. SKILLS
   08. PORTFOLIO
   09. Technologies
   10. HIRE
@@ -557,6 +556,12 @@ body {
 	margin-top: 0;
 }
 
+.about{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
 .description {
 	max-width: 100%;
 	width: 38em;
@@ -599,8 +604,8 @@ body {
 }
 
 .facts {
+	margin-top:100px;
 	float: right;
-	margin-top: 50px;
 }
 
 .about-pic{
@@ -609,79 +614,53 @@ body {
 	width: 100%;
 }
 
-.count-item {
-	margin-right: 0;
-	margin-bottom: 20px;
+/* Flip Start */
+
+/* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+  background-color: transparent;
+	width: 300px;
+  height: 200px;
+	perspective: 1000px; 
+	/* Remove this if you don't want the 3D effect */
 }
 
-.numscroller {
-	color: #131313;
-	font-size: 2em;
-	font-weight: 600;
-	margin-bottom: 15px;
-	margin-top: 20px;
-	font-family: 'Lato', sans-serif;
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+	width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
 }
 
-.count-name-intro {
-	color: #131313;
-	font-size: 1.3em;
-	font-weight: 600;
-	font-family: 'Lato', sans-serif;
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
 }
 
-/* 07. SKILLS
-=================================================*/
-
-/* #skills {
-	padding: 95px 0 50px;
-	background: #f2f2f2;
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
 }
 
-#skills h2 {
-	margin-bottom: 50px;
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
 }
 
-.skills-right {
-	float: right;
+/* Style the back side */
+.flip-box-back {
+  transform: rotateY(180deg);
 }
 
-.progress-box {
-	margin-bottom: 50px;
-}
+/* Flip End */
 
-.progress-box p {
-	font-weight: 600;
-	margin-bottom: 10px;
-}
-
-.progress {
-	background-color: rgba(26, 26, 26, 0.31);
-	height: 20px;
-	border-radius: 4px;
-	overflow: hidden;
-	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
-	box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
-}
-
-.progress-box .progress {
-	box-shadow: none;
-	height: 3px;
-}
-
-.progress-box .progress-bar {
-	transition-duration: 2000ms;
-	transition-property: all;
-	transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
-}
-
-.bg-color-base {
-	background: #48b14d !important;
-}
-
-.color-heading {
-	color: #131313 !important; */
-}
 
 /* 08. PORTFOLIO
 =================================================*/
@@ -916,6 +895,7 @@ body {
 =================================================*/
 
 #blog {
+	margin-top:90px;
 	padding: 90px 0 95px;
 	background: #f2f2f2;
 }
